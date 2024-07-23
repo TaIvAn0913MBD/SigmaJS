@@ -1,0 +1,12 @@
+let name = "12 is" + " " + typeof 12;
+      console.log(name);
+      let name1 = "JavaScript is" + " " + typeof "java";
+      console.log(name1);
+      let name2 = "True(Boolean) is" + " " + typeof true;
+      console.log(name2);
+      let name3 = "x is" + " " + typeof x;
+      console.log(name3);
+      let name4 = "null is" + " " + typeof null;
+      console.log(name4);
+      let name5 = "false is" + " " + typeof false;
+      console.log(name5);     
