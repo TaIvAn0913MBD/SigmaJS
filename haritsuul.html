@@ -9,9 +9,20 @@
     <script>
       let ehniiUg = prompt("Ta ehnii ugee bich");
       let HoyrdahiUg = prompt("Ta hoyrdahi ugee bich");
-      if (ehniiUg === String) {
-        (i = 0), i <= ehniiUg.lenght, i++;
-        console.log("Ehnii Ug iim urt" + " " + i);
+      if (ehniiUg.length > HoyrdahiUg.length) {
+        console.log(
+          "ehnii ug iluu ih bas iim ih usegtei" + " " + ehniiUg.length
+        );
+      }
+      if (ehniiUg.length < HoyrdahiUg.length) {
+        console.log(
+          "hoyradahi ug iluu baina bas iim ih usegtei" + " " + HoyrdahiUg.length
+        );
+      }
+      if (ehniiUg.length == HoyrdahiUg.length) {
+        console.log(
+          "buh ug tenstuu baina bas iim ih usegtei" + " " + HoyrdahiUg.length
+        );
       }
     </script>
   </body>

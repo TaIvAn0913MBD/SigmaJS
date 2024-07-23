@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let une = prompt(
+        "ta unee bichnuu 5000₮ - 30000₮ хооронд 15% нэмж төлдөг, бусад үед 20% - ийг нэмж төлдөг бол"
+      );
+
+      if (5000 >= Number(une) >= 30000) {
+        console.log((Number(une) / 100) * 115 + "₮");
+      } else {
+        console.log((Number(une) / 100) * 120 + "₮");
+      }
+    </script>
+  </body>
+</html>
